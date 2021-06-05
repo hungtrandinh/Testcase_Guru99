@@ -1,0 +1,823 @@
+{
+  "id": "66544c5a-bd14-4bc3-b6b3-acc4739ecaf5",
+  "version": "2.0",
+  "name": "Customized Statement Form",
+  "url": "http://www.demo.guru99.com/V4/manager/CustomisedStatementInput.php",
+  "tests": [{
+    "id": "0205aa42-38c1-43bb-99cd-90172952cbc5",
+    "name": "TC_1...29",
+    "commands": [{
+      "id": "c2439dc2-57ba-4899-a3a4-fd63257393c0",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/CustomisedStatementInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "acfb39a5-812b-40c6-9eca-2aea5654c1e8",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "792x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "677822be-302d-4cbf-8f84-e1b877583026",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "fff270af-8e20-4f42-add9-ff21e09a13bb",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "4d6e3c38-fa1c-41bb-a246-cda6a5623b62",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "77cefff8-2734-46bf-a44d-dc8659519fef",
+      "comment": "",
+      "command": "click",
+      "target": "name=AccSubmit",
+      "targets": [
+        ["name=AccSubmit", "name"],
+        ["css=tr:nth-child(13) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='AccSubmit']", "xpath:attributes"],
+        ["xpath=//tr[13]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "eeebeedb-01a5-4a7e-8ec8-f08ee4967c32",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Please fill all fields",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "7c69a487-eb23-4ccb-a994-c34819b6367e",
+      "comment": "",
+      "command": "click",
+      "target": "name=fdate",
+      "targets": [
+        ["name=fdate", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='fdate']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7d1f3a12-b0c1-40fc-aad7-31d23837f641",
+      "comment": "",
+      "command": "type",
+      "target": "name=fdate",
+      "targets": [
+        ["name=fdate", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='fdate']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": "2021-06-04"
+    }, {
+      "id": "bd1104f1-505c-4567-85d9-05dfef40a3e6",
+      "comment": "",
+      "command": "click",
+      "target": "name=tdate",
+      "targets": [
+        ["name=tdate", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='tdate']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "509f01ef-f610-4853-b2ef-ea8d09311f5a",
+      "comment": "",
+      "command": "type",
+      "target": "name=tdate",
+      "targets": [
+        ["name=tdate", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='tdate']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": "2021-06-05"
+    }, {
+      "id": "6ef1fed5-ab0e-4f4c-94dc-5d28a0a7b5b6",
+      "comment": "",
+      "command": "click",
+      "target": "name=AccSubmit",
+      "targets": [
+        ["name=AccSubmit", "name"],
+        ["css=tr:nth-child(13) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='AccSubmit']", "xpath:attributes"],
+        ["xpath=//tr[13]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8059f869-eb27-4035-9df3-22d322643bca",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Please fill all fields",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "80b1df40-a394-4e0e-9622-8bbe413eb5de",
+      "comment": "",
+      "command": "click",
+      "target": "name=amountlowerlimit",
+      "targets": [
+        ["name=amountlowerlimit", "name"],
+        ["css=tr:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='amountlowerlimit']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "20a80163-1bd1-4735-9b2a-6c32b6ec86b8",
+      "comment": "",
+      "command": "type",
+      "target": "name=amountlowerlimit",
+      "targets": [
+        ["name=amountlowerlimit", "name"],
+        ["css=tr:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='amountlowerlimit']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "08eb2597-84bb-40a3-9f19-4c8c0e981c45",
+      "comment": "",
+      "command": "click",
+      "target": "name=fdate",
+      "targets": [
+        ["name=fdate", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='fdate']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "30241b33-53e6-479a-aaf9-7f4fbb907579",
+      "comment": "",
+      "command": "type",
+      "target": "name=fdate",
+      "targets": [
+        ["name=fdate", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='fdate']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c739a1c2-2d1c-4dd2-a3d7-79844883ecef",
+      "comment": "",
+      "command": "click",
+      "target": "name=fdate",
+      "targets": [
+        ["name=fdate", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='fdate']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "704de31f-3730-4463-b159-469fe3b1889e",
+      "comment": "",
+      "command": "click",
+      "target": "name=fdate",
+      "targets": [
+        ["name=fdate", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='fdate']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f5b4b40b-088c-48d0-a482-0163b180547b",
+      "comment": "",
+      "command": "click",
+      "target": "name=fdate",
+      "targets": [
+        ["name=fdate", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='fdate']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ffe474e5-0a3a-4c27-81d2-67a4fca26420",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "name=fdate",
+      "targets": [
+        ["name=fdate", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='fdate']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b14c7013-5427-41b6-9476-932098ebcb8b",
+      "comment": "",
+      "command": "click",
+      "target": "name=fdate",
+      "targets": [
+        ["name=fdate", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='fdate']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0da6b835-33c2-4f63-a62c-5b930a0ce3cd",
+      "comment": "",
+      "command": "click",
+      "target": "name=tdate",
+      "targets": [
+        ["name=tdate", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='tdate']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "01ecfb84-aa92-43ea-b39a-e91af0535f9b",
+      "comment": "",
+      "command": "type",
+      "target": "name=tdate",
+      "targets": [
+        ["name=tdate", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='tdate']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89826288-474f-4713-89dd-d47e356fa014",
+      "comment": "",
+      "command": "click",
+      "target": "name=tdate",
+      "targets": [
+        ["name=tdate", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='tdate']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "8be997d9-e93e-40ef-ae2f-5c79d0f5e8db",
+      "comment": "",
+      "command": "click",
+      "target": "name=tdate",
+      "targets": [
+        ["name=tdate", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='tdate']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "172c34aa-c26e-4ce0-b18d-fc79ad31f324",
+      "comment": "",
+      "command": "click",
+      "target": "name=numtransaction",
+      "targets": [
+        ["name=numtransaction", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='numtransaction']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "74ee218a-5727-486e-bd7f-bcb1e9237dc2",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(10) > td:nth-child(1)",
+      "targets": [
+        ["css=tr:nth-child(10) > td:nth-child(1)", "css:finder"],
+        ["xpath=//tr[10]/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9291060a-95f5-438c-aaa9-61b5d9609a33",
+      "comment": "",
+      "command": "click",
+      "target": "name=AccSubmit",
+      "targets": [
+        ["name=AccSubmit", "name"],
+        ["css=tr:nth-child(13) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='AccSubmit']", "xpath:attributes"],
+        ["xpath=//tr[13]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "da33285f-b07f-47a8-bb62-f90ad1087065",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Please fill all fields",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8bc136e-2c6e-4cb6-b85f-7d09c7641240",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(9) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(9) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[9]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "45e6294c-1d89-4fb4-8740-b23bce032835",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(9)",
+      "targets": [
+        ["css=tr:nth-child(9)", "css:finder"],
+        ["xpath=//tr[9]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1f078809-092b-467a-a678-dd9bef3ffc01",
+      "comment": "",
+      "command": "type",
+      "target": "name=amountlowerlimit",
+      "targets": [
+        ["name=amountlowerlimit", "name"],
+        ["css=tr:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='amountlowerlimit']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7fd453ae-fbc3-48ba-99de-ea1ac1113775",
+      "comment": "",
+      "command": "click",
+      "target": "name=numtransaction",
+      "targets": [
+        ["name=numtransaction", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='numtransaction']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dce791c1-6b85-4734-bc1b-8a66d51f93c9",
+      "comment": "",
+      "command": "type",
+      "target": "name=numtransaction",
+      "targets": [
+        ["name=numtransaction", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='numtransaction']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1000000"
+    }, {
+      "id": "429ae348-e7c7-44b9-b751-3b03beb2b3be",
+      "comment": "",
+      "command": "click",
+      "target": "name=AccSubmit",
+      "targets": [
+        ["name=AccSubmit", "name"],
+        ["css=tr:nth-child(13) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='AccSubmit']", "xpath:attributes"],
+        ["xpath=//tr[13]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "472060e7-8bc8-4802-a7b2-25a45db2e263",
+      "comment": "",
+      "command": "assertAlert",
+      "target": "Please fill all fields",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4600ab41-dc8f-4064-890c-8e3ff3a8a01b",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(10)",
+      "targets": [
+        ["css=tr:nth-child(10)", "css:finder"],
+        ["xpath=//tr[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6ed775e7-453f-4c55-a272-4f3d172f2349",
+      "comment": "",
+      "command": "type",
+      "target": "name=numtransaction",
+      "targets": [
+        ["name=numtransaction", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='numtransaction']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "95424194-bd26-4d82-b4f3-6de2f3171e69",
+      "comment": "",
+      "command": "click",
+      "target": "css=tbody:nth-child(1) > tr:nth-child(1) > td",
+      "targets": [
+        ["css=tbody:nth-child(1) > tr:nth-child(1) > td", "css:finder"],
+        ["xpath=//td/table/tbody/tr/td", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a1e8c219-415b-418e-96c7-05eb32779158",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d51efd67-32e8-42f7-8fd7-2762d2ebf007",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "d319ae57-8af1-44c9-b6ca-88e3792bdea3",
+      "comment": "",
+      "command": "click",
+      "target": "name=AccSubmit",
+      "targets": [
+        ["name=AccSubmit", "name"],
+        ["css=tr:nth-child(13) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='AccSubmit']", "xpath:attributes"],
+        ["xpath=//tr[13]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bf8f3ff9-c3ec-4050-bb31-e8bb9af59f85",
+      "comment": "",
+      "command": "click",
+      "target": "name=fdate",
+      "targets": [
+        ["name=fdate", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='fdate']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c816ccf-38d9-474d-bc09-d35c7f53b8a1",
+      "comment": "",
+      "command": "click",
+      "target": "name=fdate",
+      "targets": [
+        ["name=fdate", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='fdate']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "89b161b3-b377-4e58-b172-8c5e32ac5cee",
+      "comment": "",
+      "command": "type",
+      "target": "name=fdate",
+      "targets": [
+        ["name=fdate", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='fdate']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": "2021-06-04"
+    }, {
+      "id": "16d0d383-06d9-421a-8a6a-ec20c4c72c97",
+      "comment": "",
+      "command": "click",
+      "target": "name=tdate",
+      "targets": [
+        ["name=tdate", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='tdate']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "170e6ad0-e9ca-430e-a9f5-c52f84930bd5",
+      "comment": "",
+      "command": "type",
+      "target": "name=tdate",
+      "targets": [
+        ["name=tdate", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='tdate']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": "2021-06-05"
+    }, {
+      "id": "948785f9-0e5c-4416-af51-bacef8e67705",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0c60e519-e7f7-4360-95d3-cdb867afe175",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "1"
+    }, {
+      "id": "b655c5ae-35c2-4716-bc08-23d47b4de986",
+      "comment": "",
+      "command": "click",
+      "target": "name=amountlowerlimit",
+      "targets": [
+        ["name=amountlowerlimit", "name"],
+        ["css=tr:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='amountlowerlimit']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1ce46512-c68c-4ba6-8c62-69ea73ab7275",
+      "comment": "",
+      "command": "type",
+      "target": "name=amountlowerlimit",
+      "targets": [
+        ["name=amountlowerlimit", "name"],
+        ["css=tr:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='amountlowerlimit']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "a816e9c4-57ee-4ec7-a00f-ef3042ea51b7",
+      "comment": "",
+      "command": "click",
+      "target": "name=numtransaction",
+      "targets": [
+        ["name=numtransaction", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='numtransaction']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "b00be03e-4c32-4365-be23-2cb355931cbc",
+      "comment": "",
+      "command": "type",
+      "target": "name=numtransaction",
+      "targets": [
+        ["name=numtransaction", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='numtransaction']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1000000"
+    }, {
+      "id": "8b8a3393-df07-420d-907f-31bba501e2ef",
+      "comment": "",
+      "command": "click",
+      "target": "name=AccSubmit",
+      "targets": [
+        ["name=AccSubmit", "name"],
+        ["css=tr:nth-child(13) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='AccSubmit']", "xpath:attributes"],
+        ["xpath=//tr[13]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }, {
+    "id": "7ddaadd7-a98c-49f6-b735-799c8502cb4a",
+    "name": "TC_30",
+    "commands": [{
+      "id": "03348ff1-564e-49b1-a880-28f46764ec60",
+      "comment": "",
+      "command": "open",
+      "target": "http://www.demo.guru99.com/V4/manager/CustomisedStatementInput.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "507cb357-72f8-489e-8a98-2b8c75ba7457",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "792x864",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e489cc64-4595-48c9-9b86-b7d74b968c7e",
+      "comment": "",
+      "command": "click",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3bc6970-1b0c-4522-be4f-07bc5939be0e",
+      "comment": "",
+      "command": "type",
+      "target": "name=accountno",
+      "targets": [
+        ["name=accountno", "name"],
+        ["css=tr:nth-child(6) input", "css:finder"],
+        ["xpath=//input[@name='accountno']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "93541"
+    }, {
+      "id": "b97d15ab-7f3a-46d8-a422-d6858a078b7b",
+      "comment": "",
+      "command": "click",
+      "target": "name=fdate",
+      "targets": [
+        ["name=fdate", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='fdate']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5c8b9fe7-5093-463b-9d20-321b48ee26d1",
+      "comment": "",
+      "command": "type",
+      "target": "name=fdate",
+      "targets": [
+        ["name=fdate", "name"],
+        ["css=tr:nth-child(7) input", "css:finder"],
+        ["xpath=//input[@name='fdate']", "xpath:attributes"],
+        ["xpath=//tr[7]/td[2]/input", "xpath:position"]
+      ],
+      "value": "2021-06-04"
+    }, {
+      "id": "5196de3b-52b5-4a95-8624-9d97b3f857df",
+      "comment": "",
+      "command": "click",
+      "target": "name=tdate",
+      "targets": [
+        ["name=tdate", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='tdate']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a42bfc46-c999-435c-9280-79e9169653e9",
+      "comment": "",
+      "command": "type",
+      "target": "name=tdate",
+      "targets": [
+        ["name=tdate", "name"],
+        ["css=tr:nth-child(8) input", "css:finder"],
+        ["xpath=//input[@name='tdate']", "xpath:attributes"],
+        ["xpath=//tr[8]/td[2]/input", "xpath:position"]
+      ],
+      "value": "2021-06-05"
+    }, {
+      "id": "e5a2ec31-71cf-481f-9d19-a7a899cd6a80",
+      "comment": "",
+      "command": "click",
+      "target": "css=tr:nth-child(9) > td:nth-child(2)",
+      "targets": [
+        ["css=tr:nth-child(9) > td:nth-child(2)", "css:finder"],
+        ["xpath=//tr[9]/td[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "948007be-2e0c-4e5e-a0a4-515c3af1000b",
+      "comment": "",
+      "command": "click",
+      "target": "name=amountlowerlimit",
+      "targets": [
+        ["name=amountlowerlimit", "name"],
+        ["css=tr:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='amountlowerlimit']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "a09cb4f6-8997-47ae-a8f7-f37d0437ace0",
+      "comment": "",
+      "command": "type",
+      "target": "name=amountlowerlimit",
+      "targets": [
+        ["name=amountlowerlimit", "name"],
+        ["css=tr:nth-child(9) input", "css:finder"],
+        ["xpath=//input[@name='amountlowerlimit']", "xpath:attributes"],
+        ["xpath=//tr[9]/td[2]/input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "f8244133-df2c-4d73-8687-8aa29b1be0bf",
+      "comment": "",
+      "command": "click",
+      "target": "name=numtransaction",
+      "targets": [
+        ["name=numtransaction", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='numtransaction']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d12165fc-6135-499d-9473-c87cbc8f9548",
+      "comment": "",
+      "command": "type",
+      "target": "name=numtransaction",
+      "targets": [
+        ["name=numtransaction", "name"],
+        ["css=tr:nth-child(10) input", "css:finder"],
+        ["xpath=//input[@name='numtransaction']", "xpath:attributes"],
+        ["xpath=//tr[10]/td[2]/input", "xpath:position"]
+      ],
+      "value": "1000000"
+    }, {
+      "id": "0c07ba7d-5f24-4e9d-924b-61b6fe0e3cc0",
+      "comment": "",
+      "command": "click",
+      "target": "name=AccSubmit",
+      "targets": [
+        ["name=AccSubmit", "name"],
+        ["css=tr:nth-child(13) input:nth-child(1)", "css:finder"],
+        ["xpath=//input[@name='AccSubmit']", "xpath:attributes"],
+        ["xpath=//tr[13]/td[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1664c881-db40-4edf-adfd-30d83b0186f6",
+      "comment": "",
+      "command": "click",
+      "target": "css=.heading3",
+      "targets": [
+        ["css=.heading3", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Transaction Details for Account No: 93541 from Date: 2021-06-04 to: 2021-06-05')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "87f9fd91-7cb9-4b85-a847-bdaf75f1e093",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=.heading3",
+      "targets": [
+        ["css=.heading3", "css:finder"],
+        ["xpath=//p", "xpath:position"],
+        ["xpath=//p[contains(.,'Transaction Details for Account No: 93541 from Date: 2021-06-04 to: 2021-06-05')]", "xpath:innerText"]
+      ],
+      "value": "Transaction Details for Account No: 93541 from Date: 2021-06-04 to: 2021-06-05"
+    }]
+  }],
+  "suites": [{
+    "id": "f0d503f1-3341-42f2-ac62-28c6d841b204",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": []
+  }],
+  "urls": ["http://www.demo.guru99.com/", "http://www.demo.guru99.com/V4/manager/CustomisedStatementInput.php"],
+  "plugins": []
+}
